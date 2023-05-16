@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="test2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/test2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=gnu++14" />
+					<Add option="-g" />
+					<Add directory="C:/Users/giers/Desktop/SFML-2.4.2/include" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/test2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=gnu++14" />
+					<Add directory="C:/Users/giers/Desktop/SFML-2.4.2/lib" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-audio" />
+					<Add library="sfml-network" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=gnu++14" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Entities/Entity.cpp" />
+		<Unit filename="Entities/Entity.hpp" />
+		<Unit filename="Stan.cpp" />
+		<Unit filename="Stan.hpp" />
+		<Unit filename="Stany/StanGry.cpp" />
+		<Unit filename="Stany/StanGry.hpp" />
+		<Unit filename="game.cpp" />
+		<Unit filename="game.hpp" />
+		<Unit filename="include/Animation.hpp" />
+		<Unit filename="include/Button.hpp" />
+		<Unit filename="include/Hitbox.h" />
+		<Unit filename="include/MainMenu.hpp" />
+		<Unit filename="include/Movement.hpp" />
+		<Unit filename="include/Player.hpp" />
+		<Unit filename="include/Wall.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="openal32.dll" />
+		<Unit filename="sfml-audio-2.dll" />
+		<Unit filename="sfml-audio-d-2.dll" />
+		<Unit filename="sfml-graphics-2.dll" />
+		<Unit filename="sfml-graphics-d-2.dll" />
+		<Unit filename="sfml-network-2.dll" />
+		<Unit filename="sfml-network-d-2.dll" />
+		<Unit filename="sfml-system-2.dll" />
+		<Unit filename="sfml-system-d-2.dll" />
+		<Unit filename="sfml-window-2.dll" />
+		<Unit filename="sfml-window-d-2.dll" />
+		<Unit filename="src/Animation.cpp" />
+		<Unit filename="src/Button.cpp" />
+		<Unit filename="src/Hitbox.cpp" />
+		<Unit filename="src/MainMenu.cpp" />
+		<Unit filename="src/Movement.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/Wall.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
